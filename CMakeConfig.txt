@@ -1,0 +1,12 @@
+
+
+set(ESSEXENGINE_DAEMONS "Config" "FileSystem" "Gfx" "Input" "Json" "Network" "Script" "Sfx" "System" "Window")
+
+set(ESSEXENGINE_LIBS "IsoMap")
+set(ESSEXENGINE_APPS "Game" "Server" "Editor" "Shell")
+
+if(APPLE)
+    set(ESSEXENGINE_DRIVERS "GTK3Driver" "FileSystemDriver" "JsonCppDriver" "PythonDriver" "SDL2Driver")
+else()
+    set(ESSEXENGINE_DRIVERS "GTK3Driver" "FileSystemDriver" "JsonCppDriver" "PythonDriver" "SDL2Driver")
+endif()
