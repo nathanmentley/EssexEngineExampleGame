@@ -1,0 +1,69 @@
+[submodule "src/System/Bootloader"]
+	path = src/System/Bootloader
+	url = git@github.com:nathanmentley/EssexEngineBootloader.git
+[submodule "src/System/Core"]
+	path = src/System/Core
+	url = git@github.com:nathanmentley/EssexEngineCore.git
+[submodule "src/System/Kernel"]
+	path = src/System/Kernel
+	url = git@github.com:nathanmentley/EssexEngineKernel.git
+[submodule "src/Libs/IsoMap"]
+	path = src/Libs/IsoMap
+	url = git@github.com:nathanmentley/EssexEngineLibIsoMap.git
+[submodule "src/Apps/Shell"]
+	path = src/Apps/Shell
+	url = git@github.com:nathanmentley/EssexEngineAppShell.git
+[submodule "src/Apps/Server"]
+	path = src/Apps/Server
+	url = git@github.com:nathanmentley/EssexEngineAppServer.git
+[submodule "src/Apps/Editor"]
+	path = src/Apps/Editor
+	url = git@github.com:nathanmentley/EssexEngineAppEditor.git
+[submodule "src/Apps/Game"]
+	path = src/Apps/Game
+	url = git@github.com:nathanmentley/EssexEngineAppGame.git
+[submodule "src/Drivers/SDL2Driver"]
+	path = src/Drivers/SDL2Driver
+	url = git@github.com:nathanmentley/EssexEngineSDL2Driver.git
+[submodule "src/Drivers/PythonDriver"]
+	path = src/Drivers/PythonDriver
+	url = git@github.com:nathanmentley/EssexEnginePythonDriver.git
+[submodule "src/Drivers/JsonCppDriver"]
+	path = src/Drivers/JsonCppDriver
+	url = git@github.com:nathanmentley/EssexEngineJsonCppDriver.git
+[submodule "src/Drivers/GTK3Driver"]
+	path = src/Drivers/GTK3Driver
+	url = git@github.com:nathanmentley/EssexEngineGTK3Driver.git
+[submodule "src/Drivers/FileSystemDriver"]
+	path = src/Drivers/FileSystemDriver
+	url = git@github.com:nathanmentley/EssexEngineFileSystemDriver.git
+[submodule "src/Daemons/WindowDaemon"]
+	path = src/Daemons/WindowDaemon
+	url = git@github.com:nathanmentley/EssexEngineWindowDaemon.git
+[submodule "src/Daemons/SystemDaemon"]
+	path = src/Daemons/SystemDaemon
+	url = git@github.com:nathanmentley/EssexEngineSystemDaemon.git
+[submodule "src/Daemons/SfxDaemon"]
+	path = src/Daemons/SfxDaemon
+	url = git@github.com:nathanmentley/EssexEngineSfxDaemon.git
+[submodule "src/Daemons/ScriptDaemon"]
+	path = src/Daemons/ScriptDaemon
+	url = git@github.com:nathanmentley/EssexEngineScriptDaemon.git
+[submodule "src/Daemons/NetworkDaemon"]
+	path = src/Daemons/NetworkDaemon
+	url = git@github.com:nathanmentley/EssexEngineNetworkDaemon.git
+[submodule "src/Daemons/JsonDaemon"]
+	path = src/Daemons/JsonDaemon
+	url = git@github.com:nathanmentley/EssexEngineJsonDaemon.git
+[submodule "src/Daemons/InputDaemon"]
+	path = src/Daemons/InputDaemon
+	url = git@github.com:nathanmentley/EssexEngineInputDaemon.git
+[submodule "src/Daemons/GfxDaemon"]
+	path = src/Daemons/GfxDaemon
+	url = git@github.com:nathanmentley/EssexEngineGfxDaemon.git
+[submodule "src/Daemons/ConfigDaemon"]
+	path = src/Daemons/ConfigDaemon
+	url = git@github.com:nathanmentley/EssexEngineConfigDaemon.git
+[submodule "src/Daemons/FileSystemDaemon"]
+	path = src/Daemons/FileSystemDaemon
+	url = git@github.com:nathanmentley/EssexEngineFileSystemDaemon.git
