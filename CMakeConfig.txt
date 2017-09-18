@@ -1,6 +1,6 @@
 
 
-set(ESSEXENGINE_DAEMONS "Config" "FileSystem" "Gfx" "Input" "Json" "Network" "Script" "Sfx" "System" "Window")
+set(ESSEXENGINE_DAEMONS "ConfigDaemon" "FileSystemDaemon" "GfxDaemon" "InputDaemon" "JsonDaemon" "NetworkDaemon" "ScriptDaemon" "SfxDaemon" "SystemDaemon" "WindowDaemon")
 
 set(ESSEXENGINE_LIBS "IsoMap")
 set(ESSEXENGINE_APPS "Game" "Server" "Editor" "Shell")
