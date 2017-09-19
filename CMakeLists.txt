@@ -18,6 +18,8 @@ set (CMAKE_CXX_STANDARD 11)
 
 include(CMakeConfig.txt)
 
+enable_testing()
+
 # projects
 
 include(src/System/Core/CMakeLists.txt)
