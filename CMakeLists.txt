@@ -16,6 +16,7 @@ set(ESSEXENGINE_VERSION ${ESSEXENGINE_MAJOR_VERSION}.${ESSEXENGINE_MINOR_VERSION
 
 set (CMAKE_CXX_STANDARD 11)
 
+include(src/System/BuildInfrastructure/CMakeLists.txt)
 include(CMakeConfig.txt)
 
 enable_testing()
