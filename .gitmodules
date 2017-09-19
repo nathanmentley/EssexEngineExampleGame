@@ -67,3 +67,6 @@
 [submodule "src/Daemons/FileSystemDaemon"]
 	path = src/Daemons/FileSystemDaemon
 	url = git@github.com:nathanmentley/EssexEngineFileSystemDaemon.git
+[submodule "src/System/BuildInfrastructure"]
+	path = src/System/BuildInfrastructure
+	url = git@github.com:nathanmentley/EssexEngineBuildInfrastructure.git
