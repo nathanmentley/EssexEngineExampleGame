@@ -1,0 +1,3 @@
+ee_setup_project("EssexEngineMacOSDriver" "src/Drivers/MacOSDriver/")
+target_link_libraries(EssexEngineMacOSDriver EssexEngineCore)
+target_link_libraries(EssexEngineMacOSDriver EssexEngineSystemDaemon)

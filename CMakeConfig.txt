@@ -1,12 +1,12 @@
 
 
-set(ESSEXENGINE_DAEMONS "ConfigDaemon" "FileSystemDaemon" "GfxDaemon" "InputDaemon" "JsonDaemon" "NetworkDaemon" "ScriptDaemon" "SfxDaemon" "SystemDaemon" "WindowDaemon")
+set(ESSEXENGINE_DAEMONS "ConfigDaemon" "FileSystemDaemon" "WindowDaemon" "GfxDaemon" "InputDaemon" "JsonDaemon" "NetworkDaemon" "ScriptDaemon" "SfxDaemon" "SystemDaemon")
 
 set(ESSEXENGINE_LIBS "IsoMap")
 set(ESSEXENGINE_APPS "Game" "Server" "Editor" "Shell")
 
 if(APPLE)
-    set(ESSEXENGINE_DRIVERS "GTK3Driver" "FileSystemDriver" "JsonCppDriver" "PythonDriver" "SDL2Driver")
+    set(ESSEXENGINE_DRIVERS "MacOSDriver"  "GTK3Driver" "FileSystemDriver" "JsonCppDriver" "PythonDriver" "OpenGlDriver")
 else()
     set(ESSEXENGINE_DRIVERS "GTK3Driver" "FileSystemDriver" "JsonCppDriver" "PythonDriver" "SDL2Driver")
 endif()
