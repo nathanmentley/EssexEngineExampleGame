@@ -18,16 +18,6 @@ EssexEngine::Drivers::MacOS::MacOSDriver::MacOSDriver(WeakPointer<Context> _cont
 EssexEngine::Drivers::MacOS::MacOSDriver::~MacOSDriver() {
 }
 
-//IInputDriver
-bool EssexEngine::Drivers::MacOS::MacOSDriver::IsKeyPressed(Daemons::Input::KeyboardButton::InputKeys key) {
-    return false;
-}
-
-bool EssexEngine::Drivers::MacOS::MacOSDriver::IsMousePressed(Daemons::Input::MouseButton::MouseButtons key, Daemons::Input::MouseEventLocation &data) {
-    return false;
-}
-
-
 //ISystemDriver
 void EssexEngine::Drivers::MacOS::MacOSDriver::StartTimer() {
     startTime = std::chrono::high_resolution_clock::now();

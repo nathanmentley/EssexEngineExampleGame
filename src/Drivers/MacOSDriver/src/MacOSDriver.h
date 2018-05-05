@@ -20,12 +20,11 @@
 #include <EssexEngineCore/LogDaemon.h>
 
 #include <EssexEngineSystemDaemon/ISystemDriver.h>
-#include <EssexEngineInputDaemon/IInputDriver.h>
 
 namespace EssexEngine{
 namespace Drivers{
 namespace MacOS{
-    class MacOSDriver:public Core::Drivers::Base::BaseDriver, public Daemons::System::ISystemDriver, public Daemons::Input::IInputDriver
+    class MacOSDriver:public Core::Drivers::Base::BaseDriver, public Daemons::System::ISystemDriver
     {
         public:
             MacOSDriver(WeakPointer<Context> _context);
@@ -47,10 +46,6 @@ namespace MacOS{
             int GetElapsedTime();
             void Sleep(int milliseconds);
             
-            //IInputDriver
-            bool IsKeyPressed(Daemons::Input::KeyboardButton::InputKeys key);
-            bool IsMousePressed(Daemons::Input::MouseButton::MouseButtons key,  Daemons::Input::MouseEventLocation &data);
-
             //BaseDriver
             std::string GetDriverName() { return "MacOS"; }
             std::string GetDriverVersion() { return ESSEX_ENGINE_VERSION; }

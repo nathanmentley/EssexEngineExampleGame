@@ -11,11 +11,18 @@
 
 #include <EssexEngineMacOSDriver/MacOSDriver.h>
 
+using EssexEngine::Context;
+using EssexEngine::WeakPointer;
+
+using EssexEngine::Daemons::System::ISystemDriver;
+using EssexEngine::Drivers::MacOS::MacOSDriver;
+
 extern "C" {
-    void driver_init(EssexEngine::Context* context) {
-        EssexEngine::Drivers::MacOS::MacOSDriver* macOSDriver = new EssexEngine::Drivers::MacOS::MacOSDriver(context);
+    void driver_init(WeakPointer<Context> context) {
+        MacOSDriver* macDriver = new MacOSDriver(context);
         
-        context->RegisterDriver<EssexEngine::Daemons::System::ISystemDriver>(macOSDriver);
-        context->RegisterDriver<EssexEngine::Daemons::Input::IInputDriver>(macOSDriver);
+        context->RegisterDriver<ISystemDriver>(
+            WeakPointer<ISystemDriver>(macDriver)
+        );
     }
 }
